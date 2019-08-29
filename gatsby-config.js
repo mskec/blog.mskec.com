@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
+    author: 'Martin Skec',
+    description: 'Personal blog by Martin Skec. I explain with words and code.',
     siteUrl: 'https://overreacted.io',
     social: {
       twitter: '@dan_abramov',
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Martin Skec's Overreacted Blog RSS Feed",
           },
         ],
       },

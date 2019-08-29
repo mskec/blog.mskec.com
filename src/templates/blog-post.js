@@ -16,7 +16,7 @@ import {
   loadFontsForCode,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'gaearon';
+const GITHUB_USERNAME = 'mskec';
 const GITHUB_REPO_NAME = 'overreacted.io';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
@@ -183,14 +183,14 @@ class BlogPostTemplate extends React.Component {
           </article>
         </main>
         <aside>
-          <div
-            style={{
-              margin: '90px 0 40px 0',
-              fontFamily: systemFont,
-            }}
-          >
-            <Signup />
-          </div>
+          {/*<div*/}
+          {/*  style={{*/}
+          {/*    margin: '90px 0 40px 0',*/}
+          {/*    fontFamily: systemFont,*/}
+          {/*  }}*/}
+          {/*>*/}
+          {/*  <Signup />*/}
+          {/*</div>*/}
           <h3
             style={{
               fontFamily: 'Montserrat, sans-serif',
