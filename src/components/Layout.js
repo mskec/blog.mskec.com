@@ -20,8 +20,6 @@ class Layout extends React.Component {
   renderHeader() {
     const { location, title } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
-    const color =
-      this.state.theme === 'light' ? 'var(--blue)' : 'var(--yellow)';
 
     if (location.pathname === rootPath) {
       return (
@@ -36,7 +34,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color,
+              color: 'var(--textLink)',
             }}
             to={'/'}
           >
@@ -59,7 +57,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color,
+              color: 'var(--textLink)',
             }}
             to={'/'}
           >
