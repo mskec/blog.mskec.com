@@ -1,11 +1,13 @@
 {
-  "name": "overreacted",
+  "name": "MartinSkecBlog",
   "private": true,
-  "description": "Overreacted",
+  "description": "Martin Skec's blog",
   "version": "1.0.0",
   "author": "Martin Skec <martin.skec@gmail.com>",
+  "homepage": "https://blog.mskec.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mskec/overreacted.io/issues"
+    "url": "https://github.com/mskec/blog.mskec.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -45,8 +47,6 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://overreacted.io",
-  "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
@@ -55,7 +55,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) overreacted.io",
+    "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) blog.mskec.com",
     "dry": "npm run build && cp now.json public/ && cd public && now"
   },
   "husky": {
