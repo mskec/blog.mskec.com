@@ -95,10 +95,16 @@
   border-color: #19ab27;
 }
 
-.react-toggle--focus .react-toggle-thumb {
-  box-shadow: 0px 0px 2px 3px var(--yellow);
+.light .react-toggle--focus .react-toggle-thumb {
+  box-shadow: 0px 0px 2px 3px var(--blue);
+}
+.light .react-toggle:active .react-toggle-thumb {
+  box-shadow: 0px 0px 5px 5px var(--blue);
 }
 
-.react-toggle:active .react-toggle-thumb {
+.dark .react-toggle--focus .react-toggle-thumb {
+  box-shadow: 0px 0px 2px 3px var(--yellow);
+}
+.dark .react-toggle:active .react-toggle-thumb {
   box-shadow: 0px 0px 5px 5px var(--yellow);
 }
