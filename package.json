@@ -13,7 +13,7 @@
     "gatsby": "^2.0.76",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-feed": "^2.0.8",
-    "gatsby-plugin-google-analytics": "^2.0.5",
+    "gatsby-plugin-google-analytics": "^2.1.16",
     "gatsby-plugin-i18n": "^0.4.2",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
@@ -54,7 +54,6 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "now-build": "gatsby build",
     "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) blog.mskec.com",
     "dry": "npm run build && cp now.json public/ && cd public && now"
   },

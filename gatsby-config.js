@@ -160,5 +160,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-113885482-2',
+      },
+    },
   ],
 };
