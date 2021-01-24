@@ -256,3 +256,7 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
+p > img {
+  width: 100%;
+}

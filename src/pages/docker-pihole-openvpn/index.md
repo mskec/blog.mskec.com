@@ -290,5 +290,5 @@ Thank you for reading and I hope you now have your very own ad-blocking VPN serv
 * [How To Use Systemctl to Manage Systemd Services and Units | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
 ☁️ Try out [DigitalOcean – The developer cloud](https://m.do.co/c/c393b642df65) 
-with this referral link. You will get $50 in credit over 30 days. 
+with this referral link. You will get $100 in credit over 60 days.
 It's perfect to try setting up your very own ad-blocking VPN server. 
