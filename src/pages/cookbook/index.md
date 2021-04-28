@@ -101,7 +101,7 @@ You don't have to spend money on hosting. There are plenty of FREE options that 
 than good. Some have direct integration with your git repository. This means the
 deployment is as easy as pushing a new commit. For example:
 * [netlify](https://app.netlify.com/)
-* [Vercel](https://vercel.com/),
+* [Vercel](https://vercel.com/)
 * [GitHub Pages](https://pages.github.com/)
 
 For this cookbook project, I opted for the simplest approach with GitHub Pages.
