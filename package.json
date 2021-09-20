@@ -33,7 +33,7 @@
     "husky": "^4.3.8",
     "lint-staged": "^8.1.0",
     "lodash": "^4.17.20",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.25.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
