@@ -115,8 +115,8 @@ services:
   pihole:
     image: pihole/pihole
     ports:
-      - "53:53/tcp"
-      - "53:53/udp"
+      - "127.0.0.1:53:53/tcp"
+      - "127.0.0.1:53:53/udp"
       # Uncomment port 80 if you want to have pihole UI
       # - "80:80/tcp"
       # - "443:443/tcp"
