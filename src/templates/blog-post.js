@@ -26,33 +26,12 @@ class Translations extends React.Component {
     let { translations, lang, languageLink, editUrl } = this.props;
 
     let readerTranslations = translations.filter((lang) => lang !== 'ru');
-    let hasRussianTranslation = translations.indexOf('ru') !== -1;
 
     return (
       <div className="translations">
         <Panel style={{ fontFamily: systemFont }}>
           {translations.length > 0 && (
             <span>
-              {hasRussianTranslation && (
-                <span>
-                  Originally written in:{' '}
-                  {'en' === lang ? (
-                    <b>{codeToLanguage('en')}</b>
-                  ) : (
-                    <Link to={languageLink('en')}>English</Link>
-                  )}
-                  {' • '}
-                  {'ru' === lang ? (
-                    <b>Русский (авторский перевод)</b>
-                  ) : (
-                    <Link to={languageLink('ru')}>
-                      Русский (авторский перевод)
-                    </Link>
-                  )}
-                  <br />
-                  <br />
-                </span>
-              )}
               <span>Translated by readers into: </span>
               {readerTranslations.map((l, i) => (
                 <React.Fragment key={l}>
@@ -70,16 +49,6 @@ class Translations extends React.Component {
             <>
               <br />
               <br />
-              {lang !== 'ru' && (
-                <>
-                  <Link to={languageLink('en')}>Read the original</Link>
-                  {' • '}
-                  <a href={editUrl} target="_blank" rel="noopener noreferrer">
-                    Improve this translation
-                  </a>
-                  {' • '}
-                </>
-              )}
               <Link to={`/${lang}`}>View all translated posts</Link>{' '}
             </>
           )}
@@ -93,13 +62,8 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-    let {
-      previous,
-      next,
-      slug,
-      translations,
-      translatedLinks,
-    } = this.props.pageContext;
+    let { previous, next, slug, translations, translatedLinks } =
+      this.props.pageContext;
     const lang = post.fields.langKey;
 
     // Replace original links with translated when available.

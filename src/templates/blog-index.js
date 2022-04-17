@@ -79,7 +79,7 @@ class BlogIndexTemplate extends React.Component {
 export default BlogIndexTemplate;
 
 export const pageQuery = graphql`
-  query($langKey: String!) {
+  query ($langKey: String!) {
     site {
       siteMetadata {
         title
