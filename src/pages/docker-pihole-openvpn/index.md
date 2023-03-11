@@ -34,8 +34,7 @@ The goal of this tutorial is to show you how to configure docker-compose to run
 your OpenVPN server with Pi-hole® DNS.
 
 ## Prerequisites
-* I run the setup on Ubuntu 19.04 (Disco Dingo), but it should run on any
-distribution that can run docker.
+* I run the setup on Ubuntu 19.04 (Disco Dingo), but it should run on any distribution that can run docker.
 * Install docker https://docs.docker.com/install/linux/docker-ce/ubuntu/
 * Install docker-compose https://docs.docker.com/compose/install/
 * VPN Domain. In your domain DNS settings, make sure it points to your server (optional).
